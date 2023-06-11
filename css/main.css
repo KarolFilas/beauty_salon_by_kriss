@@ -163,11 +163,107 @@ html {
   min-height: 100px;
 }
 
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.article__text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.article__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-bottom: 20px;
+  font-size: 8rem;
+}
+.article__introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.article__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
 .doctors {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background-color: darkgrey;
-  min-height: 100px;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.doctors__names {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.doctors__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.doctors__info h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.doctors__info p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.doctors__kris {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.doctors__kris img {
+  height: 400px;
+}
+.doctors__kate {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+.doctors__kate img {
+  height: 400px;
 }
 
 .number {

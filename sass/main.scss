@@ -149,13 +149,95 @@ html {
     flex-basis: 100%;
     background-color: slateblue;
     min-height: 100px;
+
+}
+
+.article {
+    display: flex;
+
+
+    &__text {
+        flex-basis: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__title {
+        display: flex;
+        align-items: end;
+        margin-bottom: 20px;
+        font-size: 8rem;
+    }
+
+    &__introduction {
+        display: flex;
+    }
+
+    &__image {
+        display: flex;
+        width: 50%;
+    }
+
+
 }
 
 .doctors {
     flex-basis: 100%;
     background-color: darkgrey;
-    min-height: 100px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &__names {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        justify-content: center;
+
+
+        h2 {
+            display: flex;
+            align-items: end;
+
+        }
+
+        p {
+            display: flex;
+            align-items: baseline;
+        }
+
+    }
+
+    &__kris {
+        flex-basis: 50%;
+
+
+        img {
+            height: 400px;
+
+        }
+    }
+
+    &__kate {
+        flex-basis: 50%;
+
+        img {
+            height: 400px;
+        }
+    }
 }
+
+
+
 
 .number {
     flex-basis: 100%;
